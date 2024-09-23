@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap);
+
+body {
+    background: linear-gradient(to top, rgb(253, 255, 111), rgb(145, 255, 145));
+    font-family: "Libre Franklin";
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.botao {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(20, 145, 61);
+    border-radius: 30px;
+    border: 2px solid rgb(226, 226, 9);
+    box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.397);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.botao:hover {
+    transform: scale(2px);
+    background-color: rgb(62, 10, 247);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.test{
+    text-align: center;
+    background-color:rgb(20, 145, 61);
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid rgb(235, 235, 235);
+    margin: 10%;
+    color: rgb(226, 226, 9);
+}
+
+.judo, .atle, .kara, .fute, .nata, .cred, .logo{
+    display: none;
+    transition: 4s;
+}
+.titl{
+    color: rgb(226, 226, 9);
+    text-align: center;
+    font-size: 50px;
+    text-justify: newspaper;
+    font-family: "Libre Franklin";
+    background-color: rgb(20, 145, 61);
+    padding: 12px;
+    border-radius: 50px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#blogo{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    }
+h3{background-color: rgba(255, 255, 255, 0.596);
+    text-align: center;
+    padding: 12px;
+    border-radius: 20px;
+    margin: 50px;
+
+    }
+.imag{
+   
+    height: 40%;
+    width: 40%;
+    border-radius: 18px;
+    float:inline-start;
+    
+}
